@@ -442,8 +442,12 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
+// 先在 usersDB 加一個 originalIndex
+usersDB.forEach((staff, idx) => {
+    staff.originalIndex = idx;
+});
 
-
+// 分類
 const activeStaff = usersDB.filter(s => !s.leaveDate || s.leaveDate.trim() === "");
 const leftStaff = usersDB.filter(s => s.leaveDate && s.leaveDate.trim() !== "");
 
@@ -454,18 +458,14 @@ const loggedInUser = loggedInUserStr ? JSON.parse(loggedInUserStr) : null;
 const loggedInLevel = loggedInUser && loggedInUser.level ? Number(loggedInUser.level) : 0;
 
 
-function createRow(staff, index) {
+function createRow(staff, id) {
     return `
         <tr>
             <td>${staff.callsign}</td>
             <td>${staff.name}</td>
             <td>${staff.role}</td>
             <td>${staff.phone}</td>
-            <td>
-                <button type="button" class="btn btn-outline-orange btn-sm staff-link" data-id="${index}">
-                    查看更多
-                </button>
-            </td>
+            <td><button  class="btn btn-outline-orange btn-sm staff-link" data-id="${id}">查看詳情</button></td>
         </tr>
     `;
 }
@@ -488,16 +488,15 @@ function viewStaffDetails(id) {
 
 // 填在職
 const activeBody = document.getElementById("active-staff-body");
-activeStaff.forEach((staff, index) => {
-    activeBody.innerHTML += createRow(staff, index);
+activeStaff.forEach((staff) => {
+    activeBody.innerHTML += createRow(staff, staff.originalIndex);
 });
 
 // 填離職
 const leftBody = document.getElementById("left-staff-body");
-leftStaff.forEach((staff, index) => {
-    leftBody.innerHTML += createRow(staff, index);
+leftStaff.forEach((staff) => {
+    leftBody.innerHTML += createRow(staff, staff.originalIndex);
 });
-
 
 // 點擊姓名顯示詳情
 document.addEventListener("click", function (event) {
