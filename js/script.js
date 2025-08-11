@@ -2,7 +2,9 @@
 const navHTML = `
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #ff6f3c;">
     <div class="container">
-        <a class="navbar-brand" href="index.html">洛聖都醫護局</a>
+        <a class="navbar-brand" href="index.html">
+        <img src="./img/logo.png" alt="洛聖都醫護局" class="d-inline-block align-text-top" style="height: 40px;">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -36,7 +38,7 @@ const navHTML = `
 const footerHTML = `
 <footer>
     <div class="container">
-        <p class="mb-0">&copy; 2025 洛聖都醫護局. All rights reserved.</p>
+        <p class="mb-0">&copy; 洛聖都醫護局. All rights reserved.</p>
     </div>
 </footer>
 `;
@@ -55,7 +57,7 @@ const usersDB = [
         hireDate: "2025-04-01",
         leaveDate: null,
         photo: "./img/team1.png",
-        skills: ["急救", "包紮", "創傷處理"]
+        skills: ["大量傷患指揮官", "空勤資格", "手術資格"]
     },
     {
         callsign: "905",
@@ -68,7 +70,7 @@ const usersDB = [
         hireDate: "2025-04-01",
         leaveDate: null,
         photo: "./img/team2.png",
-        skills: ["急救", "包紮", "創傷處理"]
+        skills: ["大量傷患指揮官", "手術資格"]
     },
     {
         callsign: "920",
@@ -79,7 +81,9 @@ const usersDB = [
         level: "3",
         phone: "49699333",
         hireDate: "2025-05-22",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team3.png",
+        skills: ["大量傷患指揮官", "空勤教官", "空勤資格", "手術講師", "手術資格"]
     },
     {
         callsign: "928",
@@ -90,7 +94,9 @@ const usersDB = [
         level: "2",
         phone: "12674044",
         hireDate: "2025-06-01",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team4.png",
+        skills: ["大量傷患指揮官", "空勤教官", "空勤資格", "手術資格"]
     },
     {
         callsign: "902",
@@ -101,7 +107,9 @@ const usersDB = [
         level: "1",
         phone: "39672585",
         hireDate: "2025-04-01",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["空勤資格", "手術資格"]
     },
     {
         callsign: "940",
@@ -112,7 +120,9 @@ const usersDB = [
         level: "1",
         phone: "22139820",
         hireDate: "2025-06-08",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team5.png",
+        skills: ["空勤資格", "手術資格","急救心理學"]
     },
     {
         callsign: "977",
@@ -123,7 +133,9 @@ const usersDB = [
         level: "1",
         phone: "12744653",
         hireDate: "2025-05-04",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team6.png",
+        skills: ["手術資格", "急救心理學教授"]
     },
     {
         callsign: "921",
@@ -134,7 +146,9 @@ const usersDB = [
         level: "1",
         phone: "57317398",
         hireDate: "2025-05-19",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team7.png",
+        skills: ["暫無"]
     },
     {
         callsign: "903",
@@ -145,7 +159,9 @@ const usersDB = [
         level: "1",
         phone: "43523710",
         hireDate: "2025-06-07",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["空勤資格"]
     },
     {
         callsign: "988",
@@ -156,7 +172,9 @@ const usersDB = [
         level: "1",
         phone: "40532985",
         hireDate: "2025-06-07",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["空勤資格"]
     },
     {
         callsign: "969",
@@ -167,7 +185,9 @@ const usersDB = [
         level: "1",
         phone: "48485368",
         hireDate: "2025-06-10",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team12.png",
+        skills: ["急救心理學"]
     },
     {
         callsign: "995",
@@ -178,7 +198,9 @@ const usersDB = [
         level: "1",
         phone: "86982180",
         hireDate: "2025-06-16",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team13.png",
+        skills: ["空勤資格", "急救心理學"]
     },
     {
         callsign: "950",
@@ -189,7 +211,9 @@ const usersDB = [
         phone: "30174048",
         level: "1",
         hireDate: "2025-06-27",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team8.png",
+        skills: ["暫無"]
     },
     {
         callsign: "911",
@@ -200,7 +224,9 @@ const usersDB = [
         level: "1",
         phone: "20129358",
         hireDate: "2025-07-07",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team11.png",
+        skills: ["空勤資格"]
     },
     {
         callsign: "999",
@@ -211,7 +237,9 @@ const usersDB = [
         level: "1",
         phone: "83058722",
         hireDate: "2025-07-09",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["暫無"]
     },
     {
         callsign: "988",
@@ -222,7 +250,9 @@ const usersDB = [
         level: "1",
         phone: "85107191",
         hireDate: "2025-06-29",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["急救心理學"]
     },
     {
         callsign: "945",
@@ -233,7 +263,9 @@ const usersDB = [
         level: "1",
         phone: "30168839",
         hireDate: "2025-07-24",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team9.png",
+        skills: ["空勤資格"]
     },
     {
         callsign: "965",
@@ -244,7 +276,9 @@ const usersDB = [
         level: "1",
         phone: "30168544",
         hireDate: "2025-07-24",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team10.png",
+        skills: ["空勤資格"]
     },
     {
         callsign: "966",
@@ -255,7 +289,9 @@ const usersDB = [
         level: "1",
         phone: "30141541",
         hireDate: "2025-06-28",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["急救心理學"]
     },
     {
         callsign: "977",
@@ -266,7 +302,9 @@ const usersDB = [
         level: "1",
         phone: "10175209",
         hireDate: "2025-06-29",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/team14.png",
+        skills: ["急救心理學副教授"]
     },
     {
         callsign: "910",
@@ -277,7 +315,9 @@ const usersDB = [
         level: "1",
         phone: "23945962",
         hireDate: "2025-07-24",
-        leaveDate: null
+        leaveDate: null,
+        photo: "./img/user.png",
+        skills: ["暫無"]
     }
 
 ];
