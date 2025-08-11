@@ -1,0 +1,350 @@
+ body {
+     font-family: 'Noto Sans TC', sans-serif;
+ }
+
+ .banner {
+     background: url('https://images.unsplash.com/photo-1588776814546-ec7a8c6a7a5b') center/cover no-repeat;
+     height: 300px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+     font-size: 2rem;
+     font-weight: bold;
+ }
+
+ .icon-row {
+     display: flex;
+     justify-content: center;
+     gap: 3rem;
+     flex-wrap: wrap;
+     margin-top: 2rem;
+ }
+
+ .icon-box {
+     text-align: center;
+     max-width: 180px;
+ }
+
+ .icon-box i {
+     font-size: 3rem;
+     color: #0d6efd;
+     margin-bottom: 0.5rem;
+ }
+
+ .hero {
+     background-color: #ff6f3c;
+     color: white;
+     padding: 4rem 2rem;
+     text-align: center;
+ }
+
+ .section-title {
+     border-bottom: 3px solid #ffa500;
+     display: inline-block;
+     padding-bottom: 0.5rem;
+     margin-bottom: 1rem;
+     color: #ff6f3c;
+ }
+
+ .custom-caption {
+     background-color: rgba(0, 0, 0, 0.8);
+     border-radius: 0.5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.team-card {
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-5px);
+}
+
+.photo-container {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.team-photo-wrapper {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+.team-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+}
+
+.badge-skill {
+    margin: 2px;
+}
+
+table th,
+table td {
+    vertical-align: middle;
+    font-size: 16px;
+    padding: 12px 8px;
+}
+
+.card {
+    background: #fdfdfd;
+    border-radius: 20px;
+}
+
+.team-card {
+    height: 100%;
+    /* 讓卡片在 flex/grid 中填滿父容器高度 */
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h3.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.table-responsive {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table-wrapper {
+    min-height: 500px;
+    /* 不夠時撐到 500px */
+    max-height: 800px;
+    /* 超過時就滾動 */
+    overflow-y: auto;
+    /* 垂直滾動條 */
+}
+
+.btn-outline-orange {
+    color: #fd7e14;
+    border-color: #fd7e14;
+}
+
+.btn-outline-orange:hover {
+    background-color: #fd7e14;
+    color: white;
+    border-color: #fd7e14;
+}
+
+/* 模態框的背景 */
+.injurymodal {
+    display: none;
+    /* 默認隱藏 */
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* 半透明黑色背景 */
+    padding-top: 100px;
+    text-align: center;
+}
+
+/* 模態框內容 */
+.injurymodal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 80%;
+    max-width: 600px;
+    max-height: 70vh;
+    /* 限制最大高度為視窗高度的 80% */
+    overflow-y: auto;
+    /* 垂直內容過多時顯示捲軸 */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* 關閉按鈕 */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.treatment-steps {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #fff9f0;
+    border: 1px solid #ffe0b2;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.treatment-steps h3 {
+    text-align: center;
+    color: #e65100;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.treatment-section {
+    margin-bottom: 1.5rem;
+    background-color: #fff3e0;
+    padding: 1rem;
+    border-left: 5px solid #fb8c00;
+    border-radius: 8px;
+}
+
+.treatment-section h4 {
+    color: #ef6c00;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.treatment-section ul {
+    padding-left: 1.2rem;
+    list-style-type: "🔹 ";
+    font-size: 0.95rem;
+    color: #424242;
+}
+
+.treatment-section li {
+    margin-bottom: 0.5rem;
+}
+
+/* 下拉選單 */
+#injurySelect {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+/* 當選擇框獲得焦點時 */
+#injurySelect:focus {
+    border-color: #2196f3;
+    outline: none;
+}
+
+/* 顯示傷勢細節區域 */
+.injury-details {
+    padding: 15px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: none;
+    /* 預設隱藏 */
+    border: 1px solid #ccc;
+}
+
+.injury-details h3 {
+    text-align: center;
+    color: #d32f2f;
+    /* 可選：加強顏色區別 */
+    margin-bottom: 15px;
+}
+
+.injury-details ul {
+    text-align: left;
+    padding-left: 20px;
+    /* 保留縮排 */
+    margin: 0 auto;
+    list-style-type: disc;
+    /* 或 square、circle，看你風格喜好 */
+}
+
+/* 可以根據不同選項變換的傷勢細節 */
+.injury-details.active {
+    display: block;
+}
+
+.injury-details {
+    margin-top: 1.5rem;
+}
+
+.vital-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.vital-btn:hover {
+    background-color: #388e3c;
+}
+
+.vital-signs {
+    display: none;
+    margin-top: 1.5rem;
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #90caf9;
+    text-align: left;
+}
+
+.vital-signs h3 {
+    color: #1565c0;
+    margin-bottom: 10px;
+}
+
+.vital-signs ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ footer {
+     background-color: #ff6f3c;
+     color: white;
+     padding: 1rem 0;
+     text-align: center;
+     margin-top: 3rem;
+ }

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>熟悉醫護局 - 官方網站</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div id="nav-placeholder"></div>
+<div class="container my-5">
+    <h3 class="mb-4 text-center">全體員工每週薪資明細</h3>
+
+    <!-- 篩選區塊 -->
+    <div class="row g-3 mb-3">
+        <!-- 姓名搜尋 -->
+        <div class="col-md-4">
+            <label for="nameFilter" class="form-label">搜尋姓名：</label>
+            <input type="text" id="nameFilter" class="form-control" placeholder="輸入姓名搜尋...">
+        </div>
+
+        <!-- 開始日期 -->
+        <div class="col-md-3">
+            <label for="startDate" class="form-label">開始日期：</label>
+            <input type="date" id="startDate" class="form-control">
+        </div>
+
+        <!-- 結束日期 -->
+        <div class="col-md-3">
+            <label for="endDate" class="form-label">結束日期：</label>
+            <input type="date" id="endDate" class="form-control">
+        </div>
+
+        <!-- 篩選按鈕 -->
+        <div class="col-md-2 d-flex align-items-end">
+            <button class="btn btn-primary w-100" id="filterBtn">篩選</button>
+        </div>
+    </div>
+
+    <div class="table-responsive shadow rounded">
+        <table class="table table-bordered table-hover align-middle text-center mb-0" id="salaryTable">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">姓名</th>
+                    <th scope="col">職位</th>
+                    <th scope="col">週次</th>
+                    <th scope="col">執勤總時數</th>
+                    <th scope="col">夜間加給(節)</th>
+                    <th scope="col">其他加給</th>
+                    <th scope="col">伙食費</th>
+                    <th scope="col">總金額</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- JS 插入資料 -->
+            </tbody>
+        </table>
+    </div>
+
+    <p class="text-muted small">
+        其他加給：包含空勤、執刀資格、急救心理學等項目。
+    </p>
+</div>
+
+
+
+<!-- 價目表按鈕 -->
+<div class="text-center my-5">
+    <button type="button" class="btn btn-warning position-fixed end-0 m-4 shadow d-none" id="injuryGuideBtn"
+        style="bottom: 50px;" data-bs-toggle="modal" data-bs-target="#injuryModal">
+        📕 醫療教材
+    </button>
+</div>
+<div class="text-center my-5">
+    <button type="button" class="btn btn-warning position-fixed bottom-0 end-0 m-4 shadow" data-bs-toggle="modal"
+        data-bs-target="#priceModal">
+        💰 價目表
+    </button>
+</div>
+
+<!-- 價目表 Modal -->
+<div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="priceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content"
+            style="background-color: #fffbe6; border: 2px solid #f6c453; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
+            <div class="modal-header">
+                <h5 class="modal-title" id="priceModalLabel">📋 醫療服務價目表</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="關閉"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-md-2 g-3">
+
+                        <!-- 基本費用 -->
+                        <div class="col">
+                            <div class="p-3 rounded shadow" style="background-color: #fff6cc;">
+                                <h5>🧾 基本費用</h5>
+                                <ul class="list-unstyled">
+                                    <li>門診：$2000</li>
+                                    <li>院外急救 - 南部：$2500</li>
+                                    <li>院外急救 - 中部：$2800</li>
+                                    <li>院外急救 - 北部：$3000</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- 附加費用 -->
+                        <div class="col">
+                            <div class="p-3 rounded shadow" style="background-color: #fff6cc;">
+                                <h5>➕ 附加費用</h5>
+                                <ul class="list-unstyled">
+                                    <li>手術：$1500</li>
+                                    <li>降壓針：$1000</li>
+                                    <li>葡萄糖：$1000</li>
+                                    <li>儀器檢查：$1000</li>
+                                    <li>病房（按日計算）：$1000</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- 商品費用 -->
+                        <div class="col">
+                            <div class="p-3 rounded shadow" style="background-color: #fff6cc;">
+                                <h5>🛒 商品費用</h5>
+                                <ul class="list-unstyled">
+                                    <li>止血帶（暫時止血）：$500</li>
+                                    <li>滅火器：$2000</li>
+                                    <li>草本繃帶：$800</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="p-3 rounded shadow" style="background-color: #fff6cc;">
+                                <h5>🤝 醫院院合作企業優惠</h5>
+                                <ul class="list-unstyled">
+                                    <li>警局（憑警徽就醫及購買醫療用品享8折優惠）</li>
+                                    <li>車廠（老闆親自買醫療用品享8折優惠）</li>
+                                    <li>朝銘（老闆親自買醫療用品享8折優惠）</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <p class="mt-4 text-muted text-center">
+                        洛聖督醫療中心保留價格調整之權利，如有變動將提前公告，請以最新資訊為準，敬請見諒。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="joinModal" tabindex="-1" aria-labelledby="joinModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content shadow-lg">
+            <div class="modal-header text-white" style="background-color: #ff6f3c;">
+                <h5 class="modal-title" id="joinModalLabel">加入我們</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="fs-5">📍 請洽 <strong>醫護局櫃台</strong> 以了解最新職缺與應徵流程。</p>
+                <hr>
+                <h6 class="mb-3">🎁 員工福利：</h6>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">✅ 完整培訓課程與專業進修機會</li>
+                    <li class="list-group-item">✅ 員工健康檢查與醫療補助</li>
+                    <li class="list-group-item">✅ 彈性排班制度與年假補助</li>
+                    <li class="list-group-item">✅ 年終獎金與績效獎金制度</li>
+                    <li class="list-group-item">✅ 團隊活動與員工旅遊</li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">關閉</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 登入 Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content shadow rounded-3">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title">員工登入</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body p-4">
+                <div class="mb-3">
+                    <label for="login-username" class="form-label">帳號</label>
+                    <input type="text" class="form-control" id="login-username" placeholder="請輸入帳號" />
+                </div>
+                <div class="mb-3">
+                    <label for="login-password" class="form-label">密碼</label>
+                    <input type="password" class="form-control" id="login-password" placeholder="請輸入密碼" />
+                </div>
+                <div id="login-result" class="text-center mb-2 fw-bold"></div>
+                <button class="btn btn-primary w-100" onclick="loginUser()">
+                    登入
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="injuryModal" class="injurymodal">
+        <div class="injurymodal-content">
+            <h2>選擇傷勢類型</h2>
+            <select id="injurySelect">
+                <option value="">-- 請選擇 --</option>
+                <option value="bleeding">出血(擦傷)</option>
+                <option value="fracture">疑似骨折</option>
+                <option value="Aburn">輕度燒燙傷</option>
+                <option value="Bburn">重度燒燙傷</option>
+                <option value="pneumothorax">氣胸 / 肋骨刺穿</option>
+                <option value="amputation">肢體截斷</option>
+                <option value="laceration">撕裂傷</option>
+                <option value="gunshotGraze">槍傷（擦過）</option>
+                <option value="gunshotPenetrating">槍傷（嵌入）</option>
+                <option value="hemopneumothorax">氣血胸</option>
+            </select>
+            <div id="injuryDetails" class="injury-details"></div>
+            <!-- 顯示生理範圍的按鈕 -->
+            <button id="vitalSignBtn" class="vital-btn">顯示生理素質範圍</button>
+            <!-- 生理範圍內容 -->
+            <div id="vitalSigns" class="vital-signs">
+                <h3 style="text-align: center;">正常生理參數範圍</h3>
+                <ul>
+                    <li><strong>心跳 (HR)：</strong> 60 - 100 bpm</li>
+                    <li><strong>呼吸 (RR)：</strong> 12 - 20 次/分鐘</li>
+                    <li><strong>血壓 (BP)：</strong> 收縮壓:90-120mmHg/舒張壓:60-80mmHg</li>
+                    <li><strong>體溫：</strong> 36.5°C ~ 37.5°C</li>
+                    <li><strong>血氧飽和度 (SpO₂)：</strong> 95% ~ 100%</li>
+                    <li><strong>血糖 (Glucose)：</strong>
+                        < 70 mg/dL（空腹）</li>
+                    <li><strong>尿量 (Urine output)：</strong> ≥ 0.5 mL/kg/hr</li>
+                    <li><strong>意識狀態 (GCS)：</strong> 正常為 15 分</li>
+                    <li><strong>膚色：</strong> 粉紅、乾燥（無發紺/濕冷）</li>
+                    <li><strong>瞳孔大小：</strong> 約 2 - 4 mm，對光反應靈敏</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+<div id="footer-placeholder"></div>
+<script src="./js/ER.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+
+</html>
