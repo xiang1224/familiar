@@ -363,6 +363,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <td>${formatMoney(record.other_bonus)}</td>
                         <td>${formatMoney(record.meal_expenses)}</td>
                         <td>${formatMoney(record.salary)}</td>
+                        <td>${(record.check)}</td>
                     `;
 
                             tbody.appendChild(tr);

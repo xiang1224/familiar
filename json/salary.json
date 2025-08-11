@@ -10,7 +10,8 @@
                     "night_bonus": "-",
                     "other_bonus": "-",
                     "meal_expenses":"-",
-                    "salary": "-"
+                    "salary": "-",
+                    "check": ""
                 },
                 {
                     "name": "夏以熙",
@@ -19,7 +20,8 @@
                     "night_bonus": 10,
                     "other_bonus": 6000,
                     "meal_expenses": 36750,
-                    "salary": 154000
+                    "salary": 154000,
+                    "check": ""
                 },
                 {
                     "name": "黃曉翔",
@@ -28,7 +30,8 @@
                     "night_bonus": 10,
                     "other_bonus": 33000,
                     "meal_expenses": 46500,
-                    "salary": 197800
+                    "salary": 197800,
+                    "check": ""
                 },
                 {
                     "name": "朴明宇",
@@ -37,7 +40,8 @@
                     "night_bonus": 13,
                     "other_bonus": 36000,
                     "meal_expenses": 27750,
-                    "salary": 165750
+                    "salary": 165750,
+                    "check": ""
                 },
                 {
                     "name": "潘紫豪",
@@ -46,7 +50,8 @@
                     "night_bonus": 33,
                     "other_bonus": 0,
                     "meal_expenses": 55500,
-                    "salary": 202600
+                    "salary": 202600,
+                    "check": ""
                 },
                 {
                     "name": "李逸庭",
@@ -55,7 +60,8 @@
                     "night_bonus": 0,
                     "other_bonus": 14000,
                     "meal_expenses": 3000,
-                    "salary": 20200
+                    "salary": 20200,
+                    "check": ""
                 },
                 {
                     "name": "張浩天",
@@ -64,7 +70,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 },
                 {
                     "name": "林夕染",
@@ -73,7 +80,8 @@
                     "night_bonus": 1,
                     "other_bonus": 23000,
                     "meal_expenses": 17250,
-                    "salary": 63650
+                    "salary": 63650,
+                    "check": ""
                 },
                 {
                     "name": "李涵",
@@ -82,7 +90,8 @@
                     "night_bonus": 11,
                     "other_bonus": 12000,
                     "meal_expenses": 9000,
-                    "salary": 61800
+                    "salary": 61800,
+                    "check": ""
                 },
                 {
                     "name": "咪嚕苦",
@@ -91,7 +100,8 @@
                     "night_bonus": 1,
                     "other_bonus": 3000,
                     "meal_expenses": 1500,
-                    "salary": 8800
+                    "salary": 8800,
+                    "check": ""
                 },
                 {
                     "name": "王麗梅",
@@ -100,7 +110,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 },
                 {
                     "name": "溫品彥",
@@ -109,7 +120,8 @@
                     "night_bonus": 24,
                     "other_bonus": 0,
                     "meal_expenses": 40500,
-                    "salary": 100000
+                    "salary": 100000,
+                    "check": ""
                 },
                 {
                     "name": "吳乃欣",
@@ -118,7 +130,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 },
                 {
                     "name": "黎緋",
@@ -127,7 +140,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 },
                 {
                     "name": "夜嵐",
@@ -136,7 +150,8 @@
                     "night_bonus": 23,
                     "other_bonus": 3000,
                     "meal_expenses": 21750,
-                    "salary": 112600
+                    "salary": 112600,
+                    "check": ""
                 },
                 {
                     "name": "蘇零",
@@ -145,7 +160,8 @@
                     "night_bonus": "-",
                     "other_bonus": "-",
                     "meal_expenses": "-",
-                    "salary": "-"
+                    "salary": "-",
+                    "check": ""
                 },
                 {
                     "name": "顧玄洲",
@@ -154,7 +170,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 },
                 {
                     "name": "野比文泰",
@@ -163,7 +180,8 @@
                     "night_bonus": 33,
                     "other_bonus": 12000,
                     "meal_expenses": 46500,
-                    "salary": 197800
+                    "salary": 197800,
+                    "check": ""
                 },
                 {
                     "name": "巴克納 尤里烏斯",
@@ -172,7 +190,8 @@
                     "night_bonus": 0,
                     "other_bonus": 12000,
                     "meal_expenses": 21750,
-                    "salary": 52600
+                    "salary": 52600,
+                    "check": ""
                 },
                 {
                     "name": "顧嫣珞",
@@ -181,7 +200,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": ""
                 }
             ]
         },
@@ -195,7 +215,8 @@
                     "night_bonus": "-",
                     "other_bonus": "-",
                     "meal_expenses": "-",
-                    "salary": "-"
+                    "salary": "-",
+                    "check": "o"
                 },
                 {
                     "name": "夏以熙",
@@ -204,7 +225,8 @@
                     "night_bonus": 10,
                     "other_bonus": 6000,
                     "meal_expenses": 32250,
-                    "salary": 137700
+                    "salary": 137700,
+                    "check": "o"
                 },
                 {
                     "name": "黃曉翔",
@@ -213,7 +235,8 @@
                     "night_bonus": 5,
                     "other_bonus": 46000,
                     "meal_expenses": 33000,
-                    "salary": 148000
+                    "salary": 148000,
+                    "check": "o"
                 },
                 {
                     "name": "朴明宇",
@@ -222,7 +245,8 @@
                     "night_bonus": 15,
                     "other_bonus": 21000,
                     "meal_expenses": 33000,
-                    "salary": 164200
+                    "salary": 164200,
+                    "check": "o"
                 },
                 {
                     "name": "潘紫豪",
@@ -231,7 +255,8 @@
                     "night_bonus": 12,
                     "other_bonus": 0,
                     "meal_expenses": 24750,
-                    "salary": 82200
+                    "salary": 82200,
+                    "check": "o"
                 },
                 {
                     "name": "李逸庭",
@@ -240,7 +265,8 @@
                     "night_bonus": 0,
                     "other_bonus": 14000,
                     "meal_expenses": 9000,
-                    "salary": 32600
+                    "salary": 32600,
+                    "check": "o"
                 },
                 {
                     "name": "張浩天",
@@ -249,7 +275,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": "o"
                 },
                 {
                     "name": "林夕染",
@@ -258,7 +285,8 @@
                     "night_bonus": 0,
                     "other_bonus": 21000,
                     "meal_expenses": 13500,
-                    "salary": 48900
+                    "salary": 48900,
+                    "check": "o"
                 },
                 {
                     "name": "李涵",
@@ -267,7 +295,8 @@
                     "night_bonus": 18,
                     "other_bonus": 12000,
                     "meal_expenses": 27750,
-                    "salary": 117800
+                    "salary": 117800,
+                    "check": "o"
                 },
                 {
                     "name": "咪嚕苦",
@@ -276,7 +305,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": "o"
                 },
                 {
                     "name": "王麗梅",
@@ -285,7 +315,8 @@
                     "night_bonus": 15,
                     "other_bonus": 15000,
                     "meal_expenses": 11250,
-                    "salary": 81000
+                    "salary": 81000,
+                    "check": ""
                 },
                 {
                     "name": "溫品彥",
@@ -294,7 +325,8 @@
                     "night_bonus": 2,
                     "other_bonus": 0,
                     "meal_expenses": 12750,
-                    "salary": 29800
+                    "salary": 29800,
+                    "check": "o"
                 },
                 {
                     "name": "吳乃欣",
@@ -303,7 +335,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": "o"
                 },
                 {
                     "name": "黎緋",
@@ -312,7 +345,8 @@
                     "night_bonus": "-",
                     "other_bonus": "-",
                     "meal_expenses": "-",
-                    "salary": "-"
+                    "salary": "-",
+                    "check": "o"
                 },
                 {
                     "name": "夜嵐",
@@ -321,7 +355,8 @@
                     "night_bonus": 7,
                     "other_bonus": 3000,
                     "meal_expenses": 6000,
-                    "salary": 35200
+                    "salary": 35200,
+                    "check": "o"
                 },
                 {
                     "name": "蘇零",
@@ -330,7 +365,8 @@
                     "night_bonus": "-",
                     "other_bonus": "-",
                     "meal_expenses": "-",
-                    "salary": "-"
+                    "salary": "-",
+                    "check": "o"
                 },
                 {
                     "name": "顧玄洲",
@@ -339,7 +375,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": "o"
                 },
                 {
                     "name": "野比文泰",
@@ -348,7 +385,8 @@
                     "night_bonus": 12,
                     "other_bonus": 12000,
                     "meal_expenses": 29250,
-                    "salary": 102600
+                    "salary": 102600,
+                    "check": "o"
                 },
                 {
                     "name": "巴克納 尤里烏斯",
@@ -357,7 +395,8 @@
                     "night_bonus": 9,
                     "other_bonus": 12000,
                     "meal_expenses": 27750,
-                    "salary": 90800
+                    "salary": 90800,
+                    "check": "o"
                 },
                 {
                     "name": "顧嫣珞",
@@ -366,7 +405,8 @@
                     "night_bonus": 0,
                     "other_bonus": 0,
                     "meal_expenses": 0,
-                    "salary": 0
+                    "salary": 0,
+                    "check": "o"
                 }
             ]
         }
