@@ -49,7 +49,7 @@ const usersDB = [
     {
         callsign: "901",
         username: "901",
-        password: "901",
+        password: "bigboss",
         role: "院長",
         name: "克拉拉 米勒斯",
         level: "3",
@@ -62,7 +62,7 @@ const usersDB = [
     {
         callsign: "905",
         username: "905",
-        password: "905",
+        password: "Aa338188",
         role: "副院長",
         name: "夏以熙",
         level: "3",
@@ -75,7 +75,7 @@ const usersDB = [
     {
         callsign: "920",
         username: "920",
-        password: "920",
+        password: "20001224",
         role: "主任",
         name: "黃曉翔",
         level: "3",
@@ -204,8 +204,8 @@ const usersDB = [
     },
     {
         callsign: "950",
-        username: "950",
-        password: "950",
+        username: "miji485280",
+        password: "leon485280",
         role: "急救員",
         name: "溫品彥",
         phone: "30174048",
