@@ -243,15 +243,15 @@ const usersDB = [
     },
     {
         callsign: "988",
-        username: "998",
-        password: "998",
+        username: "noctjade",
+        password: "0210",
         role: "急救員",
         name: "夜嵐",
         level: "1",
         phone: "85107191",
         hireDate: "2025-06-29",
         leaveDate: null,
-        photo: "./img/user.png",
+        photo: "./img/team15.png",
         skills: ["急救心理學"]
     },
     {
