@@ -87,8 +87,8 @@ const usersDB = [
     },
     {
         callsign: "928",
-        username: "928",
-        password: "928",
+        username: "ada1031",
+        password: "ada1031",
         role: "督導",
         name: "朴明宇",
         level: "2",
