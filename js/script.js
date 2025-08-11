@@ -113,8 +113,8 @@ const usersDB = [
     },
     {
         callsign: "940",
-        username: "940",
-        password: "940",
+        username: "xuancyl",
+        password: "xuan",
         role: "資深急救員",
         name: "林夕染",
         level: "1",
@@ -139,8 +139,8 @@ const usersDB = [
     },
     {
         callsign: "921",
-        username: "921",
-        password: "921",
+        username: "asd193206",
+        password: "asd00000",
         role: "急救員",
         name: "潘紫豪",
         level: "1",
@@ -269,8 +269,8 @@ const usersDB = [
     },
     {
         callsign: "965",
-        username: "965",
-        password: "965",
+        username: "UU030",
+        password: "A123z123",
         role: "急救員",
         name: "野比 文泰",
         level: "1",
@@ -289,7 +289,7 @@ const usersDB = [
         level: "1",
         phone: "30141541",
         hireDate: "2025-06-28",
-        leaveDate: null,
+        leaveDate: "2025-08-11",
         photo: "./img/user.png",
         skills: ["急救心理學"]
     },
@@ -308,8 +308,8 @@ const usersDB = [
     },
     {
         callsign: "910",
-        username: "910",
-        password: "910",
+        username: "5201314",
+        password: "1314520",
         role: "實習急救員",
         name: "顧嫣珞",
         level: "1",
