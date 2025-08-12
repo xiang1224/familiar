@@ -173,7 +173,7 @@ const usersDB = [
         phone: "40532985",
         hireDate: "2025-06-07",
         leaveDate: null,
-        photo: "./img/user.png",
+        photo: "./img/team17.png",
         skills: ["空勤資格"]
     },
     {
