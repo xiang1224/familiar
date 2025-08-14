@@ -280,7 +280,7 @@ const usersDB = [
         hireDate: "2025-06-16",
         leaveDate: null,
         photo: "./img/team13.png",
-        skills: ["執刀資格", "急救心理學"]
+        skills: ["空勤資格", "急救心理學"]
     },
     {
         callsign: "950",
@@ -332,7 +332,7 @@ const usersDB = [
         hireDate: "2025-06-29",
         leaveDate: null,
         photo: "./img/team15.png",
-        skills: ["空勤資格","急救心理學"]
+        skills: ["執刀資格","急救心理學"]
     },
     {
         callsign: "945",
