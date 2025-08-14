@@ -99,7 +99,7 @@ function insertPriceModal() {
                                     <ul class="list-unstyled">
                                         <li>警局（憑警徽就醫及購買醫療用品享5折優惠）</li>
                                         <li>車廠（老闆親自買醫療用品享7折優惠）</li>
-                                        <li>朝銘（老闆親自買醫療用品享8折優惠）</li>
+                                        <li>朝銘（憑證件就醫及購買醫療用品享8折優惠）</li>
                                     </ul>
                                 </div>
                             </div>
