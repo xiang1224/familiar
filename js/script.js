@@ -318,7 +318,7 @@ const usersDB = [
         phone: "83058722",
         hireDate: "2025-07-09",
         leaveDate: null,
-        photo: "./img/user.png",
+        photo: "./img/team18.png",
         skills: ["暫無"]
     },
     {
