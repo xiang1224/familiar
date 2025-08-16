@@ -162,7 +162,7 @@ const usersDB = [
         phone: "49699333",
         hireDate: "2025-05-22",
         leaveDate: null,
-        photo: "./img/team3.png",
+        photo: "./img/team3-1.png",
         skills: ["大量傷患指揮官", "空勤教官", "空勤資格", "手術講師", "手術資格"]
     },
     {
