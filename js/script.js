@@ -98,7 +98,7 @@ function insertPriceModal() {
                                     <h5>🤝 醫院合作企業優惠</h5>
                                     <ul class="list-unstyled">
                                         <li>警局（憑警徽就醫及購買醫療用品享5折優惠）</li>
-                                        <li>車廠（老闆親自買醫療用品享7折優惠）</li>
+                                        <li>車廠（憑證件就醫及購買醫療用品享7折優惠）</li>
                                         <li>朝銘（憑證件就醫及購買醫療用品享8折優惠）</li>
                                     </ul>
                                 </div>
@@ -254,7 +254,7 @@ const usersDB = [
         hireDate: "2025-06-07",
         leaveDate: null,
         photo: "./img/team17.png",
-        skills: ["空勤資格"]
+        skills: ["空勤資格", "手術資格"]
     },
     {
         callsign: "969",
