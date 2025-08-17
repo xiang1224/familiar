@@ -56,11 +56,11 @@
                 {
                     "name": "李逸庭",
                     "role": "資深急救員",
-                    "total_hours": "null",
-                    "night_bonus": "null",
-                    "other_bonus": "null",
-                    "meal_expenses": "null",
-                    "salary": "null",
+                    "total_hours": 8,
+                    "night_bonus": 0,
+                    "other_bonus": 34000,
+                    "meal_expenses": 12000,
+                    "salary": 58800,
                     "check": ""
                 },
                 {
