@@ -11,7 +11,7 @@
                     "other_bonus": "-",
                     "meal_expenses": "-",
                     "salary": "-",
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "夏以熙",
@@ -21,7 +21,7 @@
                     "other_bonus": 46000,
                     "meal_expenses": 41250,
                     "salary": 196000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "黃曉翔",
@@ -31,7 +31,7 @@
                     "other_bonus": 103000,
                     "meal_expenses": 57000,
                     "salary": 282400,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "朴明宇",
@@ -41,7 +41,7 @@
                     "other_bonus": 66000,
                     "meal_expenses": 20250,
                     "salary": 163250,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "潘紫豪",
@@ -51,7 +51,7 @@
                     "other_bonus": 40000,
                     "meal_expenses": 39750,
                     "salary": 162200,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "李逸庭",
@@ -91,7 +91,7 @@
                     "other_bonus": 42000,
                     "meal_expenses": 24000,
                     "salary": 140800,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "咪嚕苦",
@@ -101,7 +101,7 @@
                     "other_bonus": 13000,
                     "meal_expenses": 2250,
                     "salary": 17200,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "王麗梅",
@@ -161,7 +161,7 @@
                     "other_bonus": 10000,
                     "meal_expenses": 30000,
                     "salary": "40000",
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "野比 文泰",
@@ -171,7 +171,7 @@
                     "other_bonus": 52000,
                     "meal_expenses": 48000,
                     "salary": 189600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "巴克納 尤里烏斯",
