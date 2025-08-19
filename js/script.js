@@ -247,7 +247,7 @@ const usersDB = [
         callsign: "988",
         username: "988",
         password: "988",
-        role: "急救員",
+        role: "資深急救員",
         name: "李涵",
         level: "1",
         phone: "40532985",
