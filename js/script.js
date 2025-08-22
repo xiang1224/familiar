@@ -90,6 +90,7 @@ function insertPriceModal() {
                                         <li>止血帶（暫時止血）：$800</li>
                                         <li>草本繃帶：$1000</li>
                                         <li>滅火器：$2000</li>
+                                        <li>手電筒：$2000</li>
                                     </ul>
                                 </div>
                             </div>
