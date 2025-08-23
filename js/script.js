@@ -188,7 +188,7 @@ const usersDB = [
         level: "1",
         phone: "39672585",
         hireDate: "2025-04-01",
-        leaveDate: null,
+        leaveDate: "2025-08-11",
         photo: "./img/user.png",
         skills: ["空勤資格", "手術資格"]
     },
@@ -578,6 +578,50 @@ const leftBody = document.getElementById("left-staff-body");
 leftStaff.forEach((staff) => {
     leftBody.innerHTML += createRow(staff, staff.originalIndex);
 });
+
+// 統計
+const totalActive = activeStaff.length;
+const totalLeft = leftStaff.length;
+
+// 各職位人數統計（只算在職人員）
+const roleCount = {};
+activeStaff.forEach(s => {
+    if (!roleCount[s.role]) roleCount[s.role] = 0;
+    roleCount[s.role]++;
+});
+
+let roleStats = Object.entries(roleCount)
+    .map(([role, count]) => `${role}：${count}人`)
+    .join("， ");
+
+// 動態生成統計卡片
+const statsDiv = document.getElementById("staff-stats");
+statsDiv.innerHTML = `
+    <div class="col-md-6">
+        <div class="card shadow-sm border-success">
+            <div class="card-body text-center">
+                <h5 class="card-title text-primary">👥 在職人員</h5>
+                <p class="display-6 fw-bold">${totalActive}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm border-danger">
+            <div class="card-body text-center">
+                <h5 class="card-title text-danger">🚪 已離職人員</h5>
+                <p class="display-6 fw-bold">${totalLeft}</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="card shadow-sm border-info">
+            <div class="card-body">
+                <h5 class="card-title text-success text-center">📌 職位分布</h5>
+                <p class="fw-bold text-center mb-0">${roleStats}</p>
+            </div>
+        </div>
+    </div>
+`;
 
 // 點擊姓名顯示詳情
 document.addEventListener("click", function (event) {
