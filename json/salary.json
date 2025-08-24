@@ -20,7 +20,7 @@
                     "other_bonus": 6000,
                     "meal_expenses": 34500,
                     "salary": 158000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "黃曉翔",
@@ -30,7 +30,7 @@
                     "other_bonus": 63000,
                     "meal_expenses": 55500,
                     "salary": 233600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "朴明宇",
@@ -60,7 +60,7 @@
                     "other_bonus": 14000,
                     "meal_expenses": 15750,
                     "salary": 55400,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "張浩天",
@@ -180,7 +180,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 0,
                     "salary": 0,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "顧嫣珞",
@@ -580,7 +580,7 @@
                     "other_bonus": 42000,
                     "meal_expenses": 21750,
                     "salary": 82600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "顧嫣珞",
