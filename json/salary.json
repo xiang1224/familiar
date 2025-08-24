@@ -40,7 +40,7 @@
                     "other_bonus": 36000,
                     "meal_expenses": 27750,
                     "salary": 165750,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "潘紫豪",
@@ -50,7 +50,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 45000,
                     "salary": 150000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "李逸庭",
@@ -90,7 +90,7 @@
                     "other_bonus": 18000,
                     "meal_expenses": 21000,
                     "salary": 106400,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "咪嚕苦",
@@ -170,7 +170,7 @@
                     "other_bonus": 12000,
                     "meal_expenses": 51750,
                     "salary": 181440,
-                    "check": "灌水懲處9折"
+                    "check": "灌水懲處9折o"
                 },
                 {
                     "name": "巴克納 尤里烏斯",
