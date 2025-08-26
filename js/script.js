@@ -399,8 +399,20 @@ const usersDB = [
         leaveDate: null,
         photo: "./img/user.png",
         skills: ["暫無"]
+    },
+    {
+        callsign: "942",
+        username: "942",
+        password: "942",
+        role: "實習急救員",
+        name: "鮑伯 史都華",
+        level: "1",
+        phone: "23945962",
+        hireDate: "2025-08-26",
+        leaveDate: null,
+        photo: "./img/team19.png",
+        skills: ["暫無"]
     }
-
 ];
 
 document.addEventListener("DOMContentLoaded", () => {
