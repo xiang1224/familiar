@@ -70,7 +70,7 @@
                     "other_bonus": "-",
                     "meal_expenses": "-",
                     "salary": "-",
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "林夕染",
@@ -80,7 +80,7 @@
                     "other_bonus": 21000,
                     "meal_expenses": 23250,
                     "salary": 69050,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "李涵",
@@ -100,7 +100,7 @@
                     "other_bonus": 3000,
                     "meal_expenses": 3750,
                     "salary": 16000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "王麗梅",
@@ -110,7 +110,7 @@
                     "other_bonus": 15000,
                     "meal_expenses": 6750,
                     "salary": 51600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "溫品彥",
@@ -190,7 +190,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 0,
                     "salary": 0,
-                    "check": ""
+                    "check": "o"
                 }
             ]
         },
