@@ -408,10 +408,23 @@ const usersDB = [
         role: "實習急救員",
         name: "鮑伯 史都華",
         level: "1",
-        phone: "23945962",
+        phone: "10109003",
         hireDate: "2025-08-26",
         leaveDate: null,
         photo: "./img/team19.png",
+        skills: ["暫無"]
+    },
+    {
+        callsign: "996",
+        username: "wang570211",
+        password: "wang87522",
+        role: "實習急救員",
+        name: "松井 修有",
+        level: "1",
+        phone: "50189933",
+        hireDate: "2025-08-30",
+        leaveDate: null,
+        photo: "./img/team20.png",
         skills: ["暫無"]
     }
 ];
