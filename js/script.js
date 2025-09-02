@@ -353,14 +353,14 @@ const usersDB = [
         callsign: "965",
         username: "UU030",
         password: "A123z123",
-        role: "急救員",
+        role: "資深急救員",
         name: "野比 文泰",
         level: "1",
         phone: "30168544",
         hireDate: "2025-07-24",
         leaveDate: null,
         photo: "./img/team10-1.png",
-        skills: ["空勤資格"]
+        skills: ["空勤資格", "手術資格"]
     },
     {
         callsign: "966",
