@@ -8,7 +8,7 @@ const manualRules = {
             <div class="announcement p-4 rounded-2xl shadow-sm  bg-white mb-3">
                 <h5 class="fw-bold mb-2">📌 實習急救員</h5>
                 <p class="mb-0">上滿 <strong>7 天</strong> 可考正式急救員</p>
-                <p class="text-muted mb-0">無特殊限制</p>
+                <p class="text-muted mb-0">未經允許禁止單獨出車</p>
             </div>
             `
             },
@@ -54,6 +54,7 @@ const manualRules = {
                 <li style="list-style-type: disc; margin-left: 1.2em;">無線電保持暢通，緊急狀況時優先通報。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">禁止穿著制服做出任何脫序行為，例如打架、鬧事。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">禁止穿著制服駕駛私家車外出。</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">遇到槍傷患者務必通報警方並填寫病歷作為留檔。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">如接到倒地患者報單，務必將患者送回醫院做後續醫療處理。
                     <ul style="list-style: none; padding-left: 0; color: gray;">
                         <li style="list-style-type: circle;">例外狀況，可直接在現場進行處置：低血糖、騎警單位因訓練受傷。</li>
@@ -77,10 +78,12 @@ const manualRules = {
             </ul>
         </div>`,
             `<div class="announcement p-3 mb-3 rounded border-l-4 border-gray-400 bg-white">
-            <h5 class="fw-bold mb-1">🚘 公務車規範</h5>
+            <h5 class="fw-bold mb-1">🚘 公務車及救護車規範</h5>
             <ul class="mb-0" style="list-style: none; padding-left: 0;">
                 <li style="list-style-type: disc; margin-left: 1.2em;">1號公務車為高層專用車，僅督導以上可駕駛，其餘員工僅能駕駛2號及3號車。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">公務車用途僅限員工購買餐點或其他公務行為，禁止用於任何娛樂活動。</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">救護車抵達醫院後務必關閉警燈、熄火及上鎖。</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">下班務必將救護車停回車庫</li>
             </ul>
         </div>`
         ]
