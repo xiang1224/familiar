@@ -13,12 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 
-    // 點選 modal 外部也能關閉
-    window.addEventListener("click", (event) => {
-        if (event.target === modal) {
-            modal.style.display = "none";  // 隱藏modal
-        }
-    });
+  
 
     // 更新傷勢處置內容
     function updateInjuryDetails(content) {

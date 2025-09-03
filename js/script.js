@@ -432,9 +432,16 @@ const usersDB = [
 document.addEventListener("DOMContentLoaded", () => {
     const user = JSON.parse(localStorage.getItem("loggedInUser"));
     const injuryBtn = document.getElementById("injuryGuideBtn");
+    const manualBtn = document.getElementById("manualBtn");
+
     if (user && injuryBtn) {
         injuryBtn.classList.remove("d-none");
     }
+
+    if (user && manualBtn) {
+        manualBtn.classList.remove("d-none");
+    }
+
     // 插入 Nav 和 Footer
     const navContainer = document.getElementById("nav-placeholder");
     const footerContainer = document.getElementById("footer-placeholder");

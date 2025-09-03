@@ -342,6 +342,57 @@ h3.card-title {
 }
 
 
+/* 整體內容 */
+.tab-pane {
+    background-color: #fff8f0;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s;
+}
+
+/* 每個分類標題 */
+.tab-pane h6 {
+    font-weight: 700;
+    color: #ff7f50;
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+}
+
+/* 列表美化 */
+.tab-pane ul {
+    padding-left: 1.2rem;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+
+/* promotion 特殊條目 */
+.tab-pane .promotion-item {
+    background-color: #fff3e0;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-left: 4px solid #ffb347;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* promotion 細節文字 */
+.tab-pane .promotion-item span {
+    display: block;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+/* 滑鼠懸停效果 */
+.tab-pane li:hover,
+.tab-pane .promotion-item:hover {
+    background-color: rgba(255, 191, 71, 0.1);
+    transition: background-color 0.3s;
+}
+
+
+
  footer {
      background-color: #ff6f3c;
      color: white;
