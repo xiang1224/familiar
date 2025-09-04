@@ -20,7 +20,7 @@
                     "other_bonus": 6000,
                     "meal_expenses": 33000,
                     "salary": 154000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "黃曉翔",
@@ -30,7 +30,7 @@
                     "other_bonus": 71000,
                     "meal_expenses": 60000,
                     "salary": 268000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "朴明宇",
@@ -40,7 +40,7 @@
                     "other_bonus": 36000,
                     "meal_expenses": 27000,
                     "salary": 154000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "潘紫豪",
@@ -50,7 +50,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 48000,
                     "salary": 137600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "李逸庭",
@@ -60,7 +60,7 @@
                     "other_bonus": 14000,
                     "meal_expenses": 24000,
                     "salary": 79800,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "張浩天",
@@ -80,7 +80,7 @@
                     "other_bonus": 21000,
                     "meal_expenses": 27000,
                     "salary": 76800,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "李涵",
@@ -110,7 +110,7 @@
                     "other_bonus": 15000,
                     "meal_expenses": 18000,
                     "salary": 102600,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "溫品彥",
@@ -120,7 +120,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 28500,
                     "salary": 89200,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "黎緋",
@@ -130,7 +130,7 @@
                     "other_bonus": "-",
                     "meal_expenses": "-",
                     "salary": 30000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "夜嵐",
@@ -140,7 +140,7 @@
                     "other_bonus": 9000,
                     "meal_expenses": 7500,
                     "salary": 44000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "蘇零",
@@ -150,7 +150,7 @@
                     "other_bonus": "-",
                     "meal_expenses": "-",
                     "salary": 50000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "顧玄洲",
@@ -160,7 +160,7 @@
                     "other_bonus": "-",
                     "meal_expenses": "-",
                     "salary": 0,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "野比 文泰",
@@ -170,7 +170,7 @@
                     "other_bonus": 12000,
                     "meal_expenses": 36000,
                     "salary": 112200,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "巴克納 尤里烏斯",
@@ -180,7 +180,7 @@
                     "other_bonus": 12000,
                     "meal_expenses": 11250,
                     "salary": 42000,
-                    "check": ""
+                    "check": "o"
                 },
                 {
                     "name": "顧嫣珞",
@@ -210,7 +210,7 @@
                     "other_bonus": 0,
                     "meal_expenses": 0,
                     "salary": 0,
-                    "check": ""
+                    "check": "o"
                 }
             ]
         },
