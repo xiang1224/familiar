@@ -55,6 +55,7 @@ const manualRules = {
                 <li style="list-style-type: disc; margin-left: 1.2em;">禁止穿著制服做出任何脫序行為，例如打架、鬧事。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">禁止穿著制服駕駛私家車外出。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">遇到槍傷患者務必通報警方並填寫病歷作為留檔。</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">出入戒護病房、停車場請隨手上鎖</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">如接到倒地患者報單，務必將患者送回醫院做後續醫療處理。
                     <ul style="list-style: none; padding-left: 0; color: gray;">
                         <li style="list-style-type: circle;">例外狀況，可直接在現場進行處置：低血糖、騎警單位因訓練受傷。</li>
@@ -83,7 +84,7 @@ const manualRules = {
                 <li style="list-style-type: disc; margin-left: 1.2em;">1號公務車為高層專用車，僅督導以上可駕駛，其餘員工僅能駕駛2號及3號車。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">公務車用途僅限員工購買餐點或其他公務行為，禁止用於任何娛樂活動。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">救護車抵達醫院後務必關閉警燈、熄火及上鎖。</li>
-                <li style="list-style-type: disc; margin-left: 1.2em;">下班務必將救護車停回車庫</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">下班務必將救護車停回車庫。</li>
             </ul>
         </div>`
         ]
@@ -118,6 +119,22 @@ const manualRules = {
             <h5 class="fw-bold mb-2">⚖️ 6. 違規處理</h5>
             <p class="mb-0">最基礎懲處：每次或每發 100,000 元罰金 💸</p>
             <p class="mb-0">視情節輕重，將合併停職、降階、沒收電擊槍及所有子彈（視狀況發回）、或除名等處置。</p>
+        </div>`
+        ]
+    },
+    exam: {
+        title: "📑 考試資格規範",
+        rules: [
+            `<div class="announcement p-3 mb-3 rounded border-l-4 border-teal-400 bg-white">
+            <h5 class="fw-bold mb-2">✈️ 1. Air 空勤資格</h5>
+            <p class="mb-0">須向 <b>黃曉翔</b> 或 <b>朴明宇</b> 上滿三次空勤課程後，方可向黃曉翔申請報考。</p>
+            <p class="mb-0">考試內容：依教官指定路線進行測驗。</p>
+            <p class="mb-0 text-muted">若在上課練習期間累積 3 次迫降、冒煙或墜機，將 <b>永久禁飛</b>。</p>
+        </div>`,
+            `<div class="announcement p-3 mb-3 rounded border-l-4 border-green-400 bg-white">
+            <h5 class="fw-bold mb-2">🔪 2. 執刀資格</h5>
+            <p class="mb-0">須向 <b>黃曉翔</b> 上滿三次手術課程後，方可申請報考。</p>
+            <p class="mb-0">考試內容：由教官指定隨機考題。</p>
         </div>`
         ]
     },
