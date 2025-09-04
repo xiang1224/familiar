@@ -390,14 +390,14 @@ const usersDB = [
     },
     {
         callsign: "910",
-        username: "5201314",
-        password: "1314520",
+        username: "910",
+        password: "910",
         role: "實習急救員",
         name: "顧嫣珞",
         level: "1",
         phone: "23945962",
         hireDate: "2025-07-24",
-        leaveDate: null,
+        leaveDate: "2025-09-04",
         photo: "./img/user.png",
         skills: ["暫無"]
     },
