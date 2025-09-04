@@ -138,7 +138,7 @@ const usersDB = [
         phone: "28644061",
         hireDate: "2025-04-01",
         leaveDate: null,
-        photo: "./img/team1.png",
+        photo: "./img/team1-1.png",
         skills: ["大量傷患指揮官", "空勤資格", "手術資格"]
     },
     {
@@ -229,7 +229,7 @@ const usersDB = [
         phone: "57317398",
         hireDate: "2025-05-19",
         leaveDate: null,
-        photo: "./img/team7.png",
+        photo: "./img/team7-1.jpg",
         skills: ["暫無"]
     },
     {
