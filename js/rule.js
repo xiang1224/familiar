@@ -15,32 +15,22 @@ const manualRules = {
             {
                 rank: "正式急救員",
                 content: `
-<div class="announcement p-4 rounded-2xl shadow-sm  bg-white">
-    <h5 class="fw-bold mb-2">📌 正式急救員</h5>
-    <p class="mb-0">取得手術及直升機資格並經高層評估可升資深</p>
-    <p class="text-muted mb-0">可申請電擊槍領用</p>
-</div>
-`
+                <div class="announcement p-4 rounded-2xl shadow-sm  bg-white mb-3">
+                    <h5 class="fw-bold mb-2">📌 正式急救員</h5>
+                    <p class="mb-0">取得手術及直升機資格並經高層評估可升資深</p>
+                    <p class="text-muted mb-0">可申請電擊槍領用</p>
+                </div>
+                `
             },
             {
                 rank: "資深急救員",
                 content: `
-<div class="announcement p-4 rounded-2xl shadow-sm bg-gradient-to-r from-orange-50 to-orange-100 mb-3">
-    <h5 class="fw-bold mb-3">📢 資深救護員注意事項</h5>
-    
-    <div class="notice-item mb-3 p-3 rounded border-l-4 border-orange-400 bg-white">
-        <h6 class="fw-bold mb-1">⏱️ 執勤時數規範</h6>
-        <p class="mb-0">每週需達 <strong>15 小時</strong> 才能保住職位。</p>
-        <p class="mb-0 text-muted">特殊情況需提前請假並與高層溝通，方可例外。</p>
-    </div>
-
-    <div class="notice-item p-3 mb-3 rounded border-l-4 border-green-400 bg-white">
-        <h6 class="fw-bold mb-1">🩺 執刀紀錄與加給</h6>
-        <p class="mb-0">有執刀任務的救護員，請於 <strong>打卡機</strong> 註明執刀次數。</p>
-        <p class="mb-0 text-muted">每次執刀享有 <strong>額外加給</strong>，依紀錄發放。</p>
-    </div>
-</div>
-`
+            <div class="announcement p-4 rounded-2xl shadow-sm  bg-white">
+                <h5 class="fw-bold mb-2">📌 資深急救員</h5>
+                <p class="mb-0">每週務必達 <strong>12 小時</strong> 才能保住職位。</p>
+                <p class="mb-0 text-muted">特殊情況務必提前請假並與高層溝通，方可例外。</p>
+            </div>
+            `
             }
         ]
     },
@@ -76,6 +66,7 @@ const manualRules = {
                 <li style="list-style-type: disc; margin-left: 1.2em;">遊戲一開啟即為上班狀態。若不想上班，請重新打下班卡。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em;">打下班卡步驟：打開平板 → 在線單位對自己右鍵 → 切換上下班 → 關閉平板 → 再重新開關一次平板，才能完全下班。</li>
                 <li style="list-style-type: disc; margin-left: 1.2em; color: gray;">若未重新開關平板，無線電頻道與GPS仍會顯示你的位置。</li>
+                <li style="list-style-type: disc; margin-left: 1.2em;">上下班務必填寫D平板打卡機，以利後續計算周薪，<b>嚴禁灌水行為</b>。</li>
             </ul>
         </div>`,
             `<div class="announcement p-3 mb-3 rounded border-l-4 border-gray-400 bg-white">
@@ -135,6 +126,8 @@ const manualRules = {
             <h5 class="fw-bold mb-2">🔪 2. 執刀資格</h5>
             <p class="mb-0">須向 <b>黃曉翔</b> 上滿三次手術課程後，方可申請報考。</p>
             <p class="mb-0">考試內容：由教官指定隨機考題。</p>
+            <p class="mb-0">有執刀任務的救護員，請於 <strong>打卡機</strong> 註明執刀次數。</p>
+            <p class="mb-0 text-muted">每次執刀享有 <strong>額外加給</strong>，依紀錄發放。</p>
         </div>`
         ]
     },
@@ -144,7 +137,7 @@ const manualRules = {
             `<div class="announcement p-3 mb-3 rounded border-l-4 border-pink-400 bg-white">
             <h5 class="fw-bold mb-2">📝 1. 開單前核對</h5>
             <p class="mb-0">開單前確認病患證件或姓名/手機末四碼。</p>
-            <p class="mb-0">若對象為警員、車廠員工、朝酩或方花，需給予相對應折扣。</p>
+            <p class="mb-0">若對象為警員、車廠員工、朝酩或方花，務必給予相對應折扣。</p>
             <p class="mb-0 text-muted">可參考 mail 裡的各單位員工名冊進行核查。</p>
         </div>`
         ]
