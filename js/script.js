@@ -216,7 +216,7 @@ const usersDB = [
         phone: "12744653",
         hireDate: "2025-05-04",
         leaveDate: null,
-        photo: "./img/team6.png",
+        photo: "./img/team6-1.png",
         skills: ["手術資格", "急救心理學教授"]
     },
     {
