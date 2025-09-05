@@ -177,7 +177,7 @@ const usersDB = [
         phone: "12674044",
         hireDate: "2025-06-01",
         leaveDate: null,
-        photo: "./img/team4.png",
+        photo: "./img/team4-1.png",
         skills: ["大量傷患指揮官", "空勤教官", "空勤資格", "手術資格"]
     },
     {
@@ -321,7 +321,7 @@ const usersDB = [
         hireDate: "2025-07-09",
         leaveDate: null,
         photo: "./img/team18.png",
-        skills: ["暫無"]
+        skills: ["急救心理學"]
     },
     {
         callsign: "988",
@@ -359,7 +359,7 @@ const usersDB = [
         phone: "30168544",
         hireDate: "2025-07-24",
         leaveDate: null,
-        photo: "./img/team10-1.png",
+        photo: "./img/team10-2.png",
         skills: ["空勤資格", "手術資格"]
     },
     {
