@@ -17,8 +17,10 @@ const manualRules = {
                 content: `
                 <div class="announcement p-4 rounded-2xl shadow-sm  bg-white mb-3">
                     <h5 class="fw-bold mb-2">📌 正式急救員</h5>
+                    <p class="mb-0">每週務必達 <strong>5 小時</strong> 才能保住職位。</p>
                     <p class="mb-0">取得手術及直升機資格並經高層評估可升資深</p>
                     <p class="text-muted mb-0">可申請電擊槍領用</p>
+                    <p class="mb-0 text-muted">特殊情況務必提前請假並與高層溝通，方可例外。</p>
                 </div>
                 `
             },
