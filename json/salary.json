@@ -127,9 +127,9 @@
                     "role": "實習急救員",
                     "total_hours": "-",
                     "night_bonus": "-",
-                    "other_bonus": "-",
+                    "other_bonus": 40000,
                     "meal_expenses": "-",
-                    "salary": 0,
+                    "salary": 40000,
                     "check": ""
                 },
                 {
@@ -147,9 +147,9 @@
                     "role": "急救員",
                     "total_hours": "-",
                     "night_bonus": "-",
-                    "other_bonus": "-",
+                    "other_bonus": 40000,
                     "meal_expenses": "-",
-                    "salary": 50000,
+                    "salary": 40000,
                     "check": ""
                 },
                 {
@@ -157,9 +157,9 @@
                     "role": "急救員",
                     "total_hours": "-",
                     "night_bonus": "-",
-                    "other_bonus": "-",
+                    "other_bonus": "40000",
                     "meal_expenses": "-",
-                    "salary": 0,
+                    "salary": 40000,
                     "check": ""
                 },
                 {
