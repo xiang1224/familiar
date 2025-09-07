@@ -1,5 +1,210 @@
 {
     "weeks": [{
+            "week": "2025-08-31 ~ 2025-09-06",
+            "records": [
+                {
+                    "name": "克拉拉 米勒斯",
+                    "role": "院長",
+                    "total_hours": "-",
+                    "night_bonus": "-",
+                    "other_bonus": "-",
+                    "meal_expenses": "-",
+                    "salary": "-",
+                    "check": "o"
+                },
+                {
+                    "name": "夏以熙",
+                    "role": "副院長",
+                    "total_hours": 21.5,
+                    "night_bonus": 13,
+                    "other_bonus": 56000,
+                    "meal_expenses": 32250,
+                    "salary": 207000,
+                    "check": ""
+                },
+                {
+                    "name": "黃曉翔",
+                    "role": "主任",
+                    "total_hours": 39,
+                    "night_bonus": 12,
+                    "other_bonus": 115000,
+                    "meal_expenses": 58500,
+                    "salary": 323200,
+                    "check": ""
+                },
+                {
+                    "name": "朴明宇",
+                    "role": "督導",
+                    "total_hours": 18.5,
+                    "night_bonus": 14,
+                    "other_bonus": 86000,
+                    "meal_expenses": 27750,
+                    "salary": 220750,
+                    "check": ""
+                },
+                {
+                    "name": "潘紫豪",
+                    "role": "急救員",
+                    "total_hours": 29,
+                    "night_bonus": 20,
+                    "other_bonus": 50000,
+                    "meal_expenses": 43500,
+                    "salary": 191200,
+                    "check": ""
+                },
+                {
+                    "name": "李逸庭",
+                    "role": "急救員",
+                    "total_hours": 13.5,
+                    "night_bonus": 3,
+                    "other_bonus": 54000,
+                    "meal_expenses": 20250,
+                    "salary": 100800,
+                    "check": ""
+                },
+                {
+                    "name": "張浩天",
+                    "role": "急救員",
+                    "total_hours": "-",
+                    "night_bonus": "-",
+                    "other_bonus": "-",
+                    "meal_expenses": "-",
+                    "salary": "-",
+                    "check": "o"
+                },
+                {
+                    "name": "林夕染",
+                    "role": "資深急救員",
+                    "total_hours": 14.5,
+                    "night_bonus": 0,
+                    "other_bonus": 63000,
+                    "meal_expenses": 21750,
+                    "salary": 107950,
+                    "check": ""
+                },
+                {
+                    "name": "李涵",
+                    "role": "資深急救員",
+                    "total_hours": 9,
+                    "night_bonus": 6,
+                    "other_bonus": 48000,
+                    "meal_expenses": 13500,
+                    "salary": 93900,
+                    "check": ""
+                },
+                {
+                    "name": "咪嚕苦",
+                    "role": "急救員",
+                    "total_hours": 0,
+                    "night_bonus": 0,
+                    "other_bonus": 0,
+                    "meal_expenses": 0,
+                    "salary": 0,
+                    "check": "o"
+                },
+                {
+                    "name": "王麗梅",
+                    "role": "急救員",
+                    "total_hours": 5,
+                    "night_bonus": 7,
+                    "other_bonus": 25000,
+                    "meal_expenses": 7500,
+                    "salary": 60000,
+                    "check": ""
+                },
+                {
+                    "name": "溫品彥",
+                    "role": "急救員",
+                    "total_hours": 34.5,
+                    "night_bonus": 27,
+                    "other_bonus": 46000,
+                    "meal_expenses": 51750,
+                    "salary": 223600,
+                    "check": ""
+                },
+                {
+                    "name": "黎緋",
+                    "role": "實習急救員",
+                    "total_hours": "-",
+                    "night_bonus": "-",
+                    "other_bonus": "-",
+                    "meal_expenses": "-",
+                    "salary": 0,
+                    "check": ""
+                },
+                {
+                    "name": "夜嵐",
+                    "role": "急救員",
+                    "total_hours": 12,
+                    "night_bonus": 9,
+                    "other_bonus": 39000,
+                    "meal_expenses": 18000,
+                    "salary": 99600,
+                    "check": ""
+                },
+                {
+                    "name": "蘇零",
+                    "role": "急救員",
+                    "total_hours": "-",
+                    "night_bonus": "-",
+                    "other_bonus": "-",
+                    "meal_expenses": "-",
+                    "salary": 50000,
+                    "check": ""
+                },
+                {
+                    "name": "顧玄洲",
+                    "role": "急救員",
+                    "total_hours": "-",
+                    "night_bonus": "-",
+                    "other_bonus": "-",
+                    "meal_expenses": "-",
+                    "salary": 0,
+                    "check": ""
+                },
+                {
+                    "name": "野比 文泰",
+                    "role": "急救員",
+                    "total_hours": 24.5,
+                    "night_bonus": 14,
+                    "other_bonus": 68000,
+                    "meal_expenses": 36750,
+                    "salary": 213950,
+                    "check": ""
+                },
+                {
+                    "name": "巴克納 尤里烏斯",
+                    "role": "急救員",
+                    "total_hours": 0,
+                    "night_bonus": 0,
+                    "other_bonus": 0,
+                    "meal_expenses": 0,
+                    "salary": 0,
+                    "check": "o"
+                },
+                {
+                    "name": "松井 修有",
+                    "role": "實習急救員",
+                    "total_hours": 7,
+                    "night_bonus": 2,
+                    "other_bonus": 20000,
+                    "meal_expenses": 10500,
+                    "salary": 43500,
+                    "check": ""
+                },
+                {
+                    "name": "鮑伯 史都華",
+                    "role": "實習急救員",
+                    "total_hours": 9,
+                    "night_bonus": 0,
+                    "other_bonus": 20000,
+                    "meal_expenses": 13500,
+                    "salary": 42500,
+                    "check": ""
+                }
+            ]
+        },
+        {
             "week": "2025-08-24 ~ 2025-08-30",
             "records": [
                 {
