@@ -294,8 +294,8 @@ const usersDB = [
         level: "1",
         hireDate: "2025-06-27",
         leaveDate: null,
-        photo: "./img/team8.png",
-        skills: ["空勤資格", "手術資格"]
+        photo: "./img/team8-1.png",
+        skills: ["手術資格"]
     },
     {
         callsign: "911",
