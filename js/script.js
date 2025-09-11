@@ -280,7 +280,7 @@ const usersDB = [
         level: "1",
         phone: "86982180",
         hireDate: "2025-06-16",
-        leaveDate: null,
+        leaveDate: "2025-09-10",
         photo: "./img/team13.png",
         skills: ["空勤資格", "急救心理學"]
     },
