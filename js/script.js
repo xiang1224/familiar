@@ -418,7 +418,7 @@ const usersDB = [
         callsign: "996",
         username: "wang570211",
         password: "wang87522",
-        role: "實習急救員",
+        role: "急救員",
         name: "松井 修有",
         level: "1",
         phone: "50189933",
