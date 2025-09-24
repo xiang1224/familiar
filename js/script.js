@@ -345,7 +345,7 @@ const usersDB = [
         level: "1",
         phone: "30168839",
         hireDate: "2025-07-24",
-        leaveDate: null,
+        leaveDate: "2025-09-23",
         photo: "./img/team9.png",
         skills: ["空勤資格"]
     },
